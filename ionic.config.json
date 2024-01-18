@@ -1,0 +1,7 @@
+{
+  "name": "unixclock",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
