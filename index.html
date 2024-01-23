@@ -26,5 +26,14 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+    <p>This web application requires JavaScript to work:</p>
+    <ul>
+    <li>It uses JavaScript DateTime API to convert UTC time to unix time.</li>
+    <li>It uses the ionic framework to be deployed as PWA, iOS, and Android application. Ionic requires JavaScript to render page.</li>
+    </ul>
+    <p>Please enable JavaScript in the browser or use a browser with JavaScript support.</p>
+    <p>Alternatively, on a unix like operating system, running <code>date +%s</code> under terminal will print out current unix time.</p>
+    </noscript>
   </body>
 </html>

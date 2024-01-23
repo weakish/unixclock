@@ -1,6 +1,6 @@
-import { IonDatetimeButton, IonModal, IonDatetime, IonHeader, IonTitle, IonToolbar, IonGrid, IonRow } from '@ionic/react';
+import { IonDatetime, IonGrid, IonRow } from '@ionic/react';
 import './UnixClock.css';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 interface ContainerProps { }
 

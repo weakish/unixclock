@@ -1,6 +1,7 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import UnixClock from '../components/UnixClock';
 import './Home.css';
+import React from "react";
 
 const Home: React.FC = () => {
   return (
